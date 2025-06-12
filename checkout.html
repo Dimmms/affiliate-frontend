@@ -116,7 +116,7 @@
 });
 
      const result = await res.json();
-    console.log(result); // 🔍 Ini baris untuk debugging
+    console.log("Snap Response:", result); // 🔍 Ini baris untuk debugging
 
     if (result.token) {
       window.snap.pay(result.token, {
